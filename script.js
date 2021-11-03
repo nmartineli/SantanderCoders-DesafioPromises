@@ -37,6 +37,4 @@ const createList = async () => {
   });
 };
 
-const promise = new Promise(function (resolve, reject) {});
-
 button.addEventListener('click', createList);
